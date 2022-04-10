@@ -1,0 +1,132 @@
+==> Save log on /home/std2021/projects/MM2022/Release/DHHN/logger/DHHN_Refinement.txt
+Train Epoch: 1 [0/10000 (0%)]	 audio Loss: 0.828	 video Loss: 0.820	 wsl Loss: 0.811	 dist_a: 0.116	 dist_v: 0.083, adv: -0.030; 
+[SubNet]	 audio_net loss: 0.954 	 video_net loss: 1.020 	 adv loss: -0.157
+Train Epoch: 1 [3200/10000 (32%)]	 audio Loss: 0.097	 video Loss: 0.259	 wsl Loss: 0.087	 dist_a: 0.004	 dist_v: 0.012, adv: -0.016; 
+[SubNet]	 audio_net loss: 0.102 	 video_net loss: 0.285 	 adv loss: -0.030
+Train Epoch: 1 [6400/10000 (64%)]	 audio Loss: 0.071	 video Loss: 0.257	 wsl Loss: 0.071	 dist_a: 0.005	 dist_v: 0.013, adv: -0.014; 
+[SubNet]	 audio_net loss: 0.069 	 video_net loss: 0.283 	 adv loss: -0.030
+Train Epoch: 1 [9600/10000 (96%)]	 audio Loss: 0.086	 video Loss: 0.270	 wsl Loss: 0.089	 dist_a: 0.008	 dist_v: 0.011, adv: -0.014; 
+[SubNet]	 audio_net loss: 0.088 	 video_net loss: 0.271 	 adv loss: -0.031
+
+
+Audio  	 52.2 	 46.7
+Visual 	 51.8 	 47.9
+AudVis 	 45.1 	 40.7
+Segment-levelType@Avg. F1: 49.7
+Segment-level Event@Avg. F1: 51.2
+Event-level Type@Avg. F1: 45.1
+Event-level Event@Avg. F1: 44.9
+
+
+==> best_F [49.70638602759485] at [1]
+==> Save best audio-visual checkpoint at models/DHHN_Refinement_aud-vis.pt.
+
+==> best_audio [49.45368707808213] at [1]
+==> Save best audio checkpoint at models/DHHN_Refinement_audio.pt.
+
+==> best_video [49.84883381529567] at [1]
+==> Save best video checkpoint at models/DHHN_Refinement_video.pt.
+
+Train Epoch: 2 [0/10000 (0%)]	 audio Loss: 0.071	 video Loss: 0.262	 wsl Loss: 0.077	 dist_a: 0.008	 dist_v: 0.007, adv: -0.014; 
+[SubNet]	 audio_net loss: 0.076 	 video_net loss: 0.264 	 adv loss: -0.030
+Train Epoch: 2 [3200/10000 (32%)]	 audio Loss: 0.069	 video Loss: 0.249	 wsl Loss: 0.067	 dist_a: 0.005	 dist_v: 0.006, adv: -0.017; 
+[SubNet]	 audio_net loss: 0.081 	 video_net loss: 0.258 	 adv loss: -0.027
+Train Epoch: 2 [6400/10000 (64%)]	 audio Loss: 0.056	 video Loss: 0.236	 wsl Loss: 0.059	 dist_a: 0.007	 dist_v: 0.006, adv: -0.017; 
+[SubNet]	 audio_net loss: 0.085 	 video_net loss: 0.256 	 adv loss: -0.031
+Train Epoch: 2 [9600/10000 (96%)]	 audio Loss: 0.054	 video Loss: 0.238	 wsl Loss: 0.054	 dist_a: 0.005	 dist_v: 0.007, adv: -0.019; 
+[SubNet]	 audio_net loss: 0.071 	 video_net loss: 0.258 	 adv loss: -0.030
+
+
+Audio  	 60.3 	 53.6
+Visual 	 63.2 	 59.9
+AudVis 	 56.8 	 50.8
+Segment-levelType@Avg. F1: 60.1
+Segment-level Event@Avg. F1: 59.0
+Event-level Type@Avg. F1: 54.8
+Event-level Event@Avg. F1: 52.3
+
+
+==> best_F [60.10370243600378] at [2]
+==> Save best audio-visual checkpoint at models/DHHN_Refinement_aud-vis.pt.
+
+==> best_audio [56.986682342811925] at [2]
+==> Save best audio checkpoint at models/DHHN_Refinement_audio.pt.
+
+==> best_video [61.54113380235851] at [2]
+==> Save best video checkpoint at models/DHHN_Refinement_video.pt.
+
+Train Epoch: 3 [0/10000 (0%)]	 audio Loss: 0.051	 video Loss: 0.228	 wsl Loss: 0.049	 dist_a: 0.006	 dist_v: 0.006, adv: -0.016; 
+[SubNet]	 audio_net loss: 0.073 	 video_net loss: 0.252 	 adv loss: -0.026
+Train Epoch: 3 [3200/10000 (32%)]	 audio Loss: 0.049	 video Loss: 0.242	 wsl Loss: 0.049	 dist_a: 0.007	 dist_v: 0.005, adv: -0.016; 
+[SubNet]	 audio_net loss: 0.075 	 video_net loss: 0.257 	 adv loss: -0.029
+Train Epoch: 3 [6400/10000 (64%)]	 audio Loss: 0.039	 video Loss: 0.234	 wsl Loss: 0.037	 dist_a: 0.007	 dist_v: 0.004, adv: -0.017; 
+[SubNet]	 audio_net loss: 0.073 	 video_net loss: 0.244 	 adv loss: -0.027
+Train Epoch: 3 [9600/10000 (96%)]	 audio Loss: 0.051	 video Loss: 0.234	 wsl Loss: 0.049	 dist_a: 0.009	 dist_v: 0.006, adv: -0.016; 
+[SubNet]	 audio_net loss: 0.086 	 video_net loss: 0.254 	 adv loss: -0.030
+
+
+Audio  	 61.3 	 54.7
+Visual 	 63.7 	 59.8
+AudVis 	 57.9 	 51.5
+Segment-levelType@Avg. F1: 61.0
+Segment-level Event@Avg. F1: 59.8
+Event-level Type@Avg. F1: 55.3
+Event-level Event@Avg. F1: 52.7
+
+
+==> best_F [60.986856762536114] at [3]
+==> Save best audio-visual checkpoint at models/DHHN_Refinement_aud-vis.pt.
+
+==> best_audio [58.008349172759054] at [3]
+==> Save best audio checkpoint at models/DHHN_Refinement_audio.pt.
+
+==> best_video [61.761477656394575] at [3]
+==> Save best video checkpoint at models/DHHN_Refinement_video.pt.
+
+Train Epoch: 4 [0/10000 (0%)]	 audio Loss: 0.054	 video Loss: 0.236	 wsl Loss: 0.051	 dist_a: 0.006	 dist_v: 0.005, adv: -0.016; 
+[SubNet]	 audio_net loss: 0.067 	 video_net loss: 0.259 	 adv loss: -0.028
+Train Epoch: 4 [3200/10000 (32%)]	 audio Loss: 0.040	 video Loss: 0.228	 wsl Loss: 0.038	 dist_a: 0.007	 dist_v: 0.005, adv: -0.017; 
+[SubNet]	 audio_net loss: 0.055 	 video_net loss: 0.251 	 adv loss: -0.031
+Train Epoch: 4 [6400/10000 (64%)]	 audio Loss: 0.042	 video Loss: 0.235	 wsl Loss: 0.049	 dist_a: 0.008	 dist_v: 0.004, adv: -0.014; 
+[SubNet]	 audio_net loss: 0.072 	 video_net loss: 0.247 	 adv loss: -0.025
+Train Epoch: 4 [9600/10000 (96%)]	 audio Loss: 0.038	 video Loss: 0.235	 wsl Loss: 0.035	 dist_a: 0.009	 dist_v: 0.005, adv: -0.018; 
+[SubNet]	 audio_net loss: 0.069 	 video_net loss: 0.250 	 adv loss: -0.029
+
+
+Audio  	 62.9 	 56.1
+Visual 	 65.8 	 61.7
+AudVis 	 60.9 	 54.1
+Segment-levelType@Avg. F1: 63.2
+Segment-level Event@Avg. F1: 61.5
+Event-level Type@Avg. F1: 57.3
+Event-level Event@Avg. F1: 54.5
+
+
+==> best_F [63.218901516572295] at [4]
+==> Save best audio-visual checkpoint at models/DHHN_Refinement_aud-vis.pt.
+
+==> best_audio [59.52517434551596] at [4]
+==> Save best audio checkpoint at models/DHHN_Refinement_audio.pt.
+
+==> best_video [63.75716507584361] at [4]
+==> Save best video checkpoint at models/DHHN_Refinement_video.pt.
+
+Train Epoch: 5 [0/10000 (0%)]	 audio Loss: 0.050	 video Loss: 0.236	 wsl Loss: 0.047	 dist_a: 0.005	 dist_v: 0.004, adv: -0.018; 
+[SubNet]	 audio_net loss: 0.067 	 video_net loss: 0.248 	 adv loss: -0.025
+Train Epoch: 5 [3200/10000 (32%)]	 audio Loss: 0.040	 video Loss: 0.226	 wsl Loss: 0.037	 dist_a: 0.008	 dist_v: 0.005, adv: -0.015; 
+[SubNet]	 audio_net loss: 0.067 	 video_net loss: 0.248 	 adv loss: -0.029
+Train Epoch: 5 [6400/10000 (64%)]	 audio Loss: 0.041	 video Loss: 0.223	 wsl Loss: 0.034	 dist_a: 0.007	 dist_v: 0.006, adv: -0.015; 
+[SubNet]	 audio_net loss: 0.076 	 video_net loss: 0.242 	 adv loss: -0.029
+Train Epoch: 5 [9600/10000 (96%)]	 audio Loss: 0.031	 video Loss: 0.230	 wsl Loss: 0.039	 dist_a: 0.007	 dist_v: 0.005, adv: -0.016; 
+[SubNet]	 audio_net loss: 0.060 	 video_net loss: 0.242 	 adv loss: -0.026
+
+
+Audio  	 59.6 	 53.2
+Visual 	 63.6 	 60.1
+AudVis 	 57.0 	 50.7
+Segment-levelType@Avg. F1: 60.1
+Segment-level Event@Avg. F1: 58.6
+Event-level Type@Avg. F1: 54.7
+Event-level Event@Avg. F1: 52.3
+
+
