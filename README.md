@@ -13,7 +13,7 @@ The Weakly-Supervised Audio-Visual Video Parsing (AVVP) task aims to parse a vid
 
 1. We propose a Hierarchical Context Modeling Network (HCMN) which extracts contexts from multiple scales to avoid the misunderstanding caused by incomplete event fragments. It can significantly improve the performance of video parsing on event-level localization. 
 2. We design a Modality-wise Guiding Network (MGN) assisting model to learn characteristic intra-modality features, which is essential for discriminating modality categories in the AVVP task.
-3. Based kernel module Hierarchical Hybrid Network (HHN), which is built on HCMN and MGN, we design a dual-stream model Dual HHN. By adapting audio and visual modalities with two different HHNs respectively, we furtherly boost the performance of video parsing.
+3. Based on the kernel module Hierarchical Hybrid Network (HHN), which is built on HCMN and MGN, we design a dual-stream model Dual HHN. By adapting audio and visual modalities with two different HHNs respectively, we furtherly boost the performance of video parsing.
 4. We evaluate our model on the benchmarks LLP and the results show that our DHHN method outperforms recent state-of-the-art methods. Especially, we achieve promising improvement in the performance of event-level localization.
 
 # Experiments
