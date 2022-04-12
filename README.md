@@ -2,7 +2,6 @@
 
 This is the implementation codes and instruction of the proposed work DHHN.
 
-## Semi-supervised Video-Paragraph TRansformer
 ![avatar](figures/framework.png)
 
 ## Main Idea
