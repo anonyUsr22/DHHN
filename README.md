@@ -58,7 +58,12 @@ sh DHHN_origin.sh
 
 ## Visualization Results
 
+
 ![avatar](figures/vis.png)
+
+For more qualitative analysis, please kindly refer to our supplementary materials.
+![avatar](figures/vis_2.png)
+
 
 
 We sincerely thank the following works for their codes:
